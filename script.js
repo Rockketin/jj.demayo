@@ -65,6 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const rutaBase = 'res/'; // o donde estén almacenadas tus imágenes
     const contenedor = document.getElementById('swiper-slides');
+    if (!contenedor) return;
 
     archivos.forEach((nombre) => {
         const slide = document.createElement('div');
