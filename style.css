@@ -1,0 +1,14 @@
+.swiper-slide img {
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Flechas en gris */
+.swiper-button-next,
+.swiper-button-prev {
+    color: gray;
+    filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.3));
+}
